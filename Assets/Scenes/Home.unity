@@ -1688,6 +1688,7 @@ GameObject:
   - component: {fileID: 107514169}
   - component: {fileID: 106744089}
   - component: {fileID: 105745369}
+  - component: {fileID: 107943194}
   m_Layer: 0
   m_Name: Bed side_table
   m_TagString: Untagged
@@ -1695,6 +1696,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!65 &107943194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107943193}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 99.99997, y: 99.999985, z: 99.99999}
+  m_Center: {x: -0.000076293945, y: -0.000032424927, z: 0.00002670288}
 --- !u!1 &112050684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,6 +1914,7 @@ GameObject:
   - component: {fileID: 219181526}
   - component: {fileID: 220475894}
   - component: {fileID: 221606710}
+  - component: {fileID: 221606711}
   m_Layer: 0
   m_Name: Painting_Small_C
   m_TagString: Untagged
@@ -1949,6 +1972,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &221606711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219672054}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.21292457, y: 0.26472014, z: 0.012255719}
+  m_Center: {x: 0.000000037252903, y: 0, z: 0.0060816873}
 --- !u!1 &225431976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2172,6 +2216,7 @@ GameObject:
   - component: {fileID: 255176694}
   - component: {fileID: 251785172}
   - component: {fileID: 252751124}
+  - component: {fileID: 255176695}
   m_Layer: 0
   m_Name: Dressing_mirror
   m_TagString: Untagged
@@ -2194,6 +2239,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1284045798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &255176695
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254948310}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 16.025846, y: 37.33403, z: 17.023088}
+  m_Center: {x: -0.6603479, y: 18.704514, z: -0.5427844}
 --- !u!1 &272030329
 GameObject:
   m_ObjectHideFlags: 0
@@ -5565,6 +5631,7 @@ GameObject:
   - component: {fileID: 562540566}
   - component: {fileID: 563540694}
   - component: {fileID: 556081110}
+  - component: {fileID: 565472279}
   m_Layer: 0
   m_Name: bedsider
   m_TagString: Untagged
@@ -5572,6 +5639,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!65 &565472279
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565472278}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 58.33824, y: 52.911556, z: 1.6867386}
+  m_Center: {x: 0.0000076293945, y: -2.1080015, z: 0.0000065267086}
 --- !u!4 &613472309
 Transform:
   m_ObjectHideFlags: 0
@@ -8036,6 +8124,7 @@ GameObject:
   - component: {fileID: 1057361696}
   - component: {fileID: 1060261632}
   - component: {fileID: 1059261888}
+  - component: {fileID: 1060261633}
   m_Layer: 0
   m_Name: Painting_Photo_B
   m_TagString: Untagged
@@ -8108,6 +8197,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057067776}
   m_Mesh: {fileID: 4300000, guid: 32ba54a09b910eb4d9a741aede0b8ca4, type: 3}
+--- !u!65 &1060261633
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057067776}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.247686, y: 0.21292454, z: 0.012255714}
+  m_Center: {x: -0.00000023841858, y: 0.0000000372529, z: 0.0060819234}
 --- !u!1 &1067789871
 GameObject:
   m_ObjectHideFlags: 0
@@ -10694,6 +10804,7 @@ GameObject:
   - component: {fileID: 1283844931}
   - component: {fileID: 1286712163}
   - component: {fileID: 1285613987}
+  - component: {fileID: 1286712164}
   m_Layer: 0
   m_Name: Painting_StandPhoto_A
   m_TagString: Untagged
@@ -10808,6 +10919,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283618659}
   m_Mesh: {fileID: 4300000, guid: 2eea6706ad59c504f97ada384db8c584, type: 3}
+--- !u!65 &1286712164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283618659}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.21483538, y: 0.16762067, z: 0.10289081}
+  m_Center: {x: 0, y: 0.08237667, z: 0.0432028}
 --- !u!33 &1313074498
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -23194,6 +23326,7 @@ GameObject:
   - component: {fileID: 1474208374}
   - component: {fileID: 1475011158}
   - component: {fileID: 1476108438}
+  - component: {fileID: 1476108439}
   m_Layer: 0
   m_Name: Painting_StandPhoto_C
   m_TagString: Untagged
@@ -23266,6 +23399,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1476108439
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473855062}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.17280033, y: 0.19416189, z: 0.10362186}
+  m_Center: {x: -0.000000033527613, y: 0.09746398, z: -0.021681894}
 --- !u!23 &1501693065
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24711,6 +24865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1712579177}
+  - component: {fileID: 1712619082}
   m_Layer: 0
   m_Name: bedsheet_and_pillowPillow_3
   m_TagString: Untagged
@@ -24718,6 +24873,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!65 &1712619082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712619081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.4913607, y: 1.1103878, z: 4.742094}
+  m_Center: {x: 0.36023146, y: 0.5989061, z: 0.04422831}
 --- !u!1 &1712619083
 GameObject:
   m_ObjectHideFlags: 0
@@ -24745,6 +24921,7 @@ GameObject:
   - component: {fileID: 1712579181}
   - component: {fileID: 1713873483}
   - component: {fileID: 1714872459}
+  - component: {fileID: 1714872460}
   m_Layer: 0
   m_Name: polySurface2
   m_TagString: Untagged
@@ -24996,6 +25173,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1714872460
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712619085}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.4164145, y: 0.8018887, z: 3.5699244}
+  m_Center: {x: -0.00000035762787, y: 0, z: -0.000002861023}
 --- !u!23 &1714872461
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25224,6 +25422,7 @@ GameObject:
   - component: {fileID: 1722056217}
   - component: {fileID: 1720729145}
   - component: {fileID: 1719762169}
+  - component: {fileID: 1722056218}
   m_Layer: 0
   m_Name: fotostand
   m_TagString: Untagged
@@ -25246,6 +25445,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1284045798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1722056218
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722016313}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.290303, y: 9.290303, z: 6.549453}
+  m_Center: {x: -0.0000038146973, y: 0.000061035156, z: -1.3704252}
 --- !u!4 &1743908402
 Transform:
   m_ObjectHideFlags: 0
@@ -33354,6 +33574,7 @@ GameObject:
   - component: {fileID: 4229985799000672}
   - component: {fileID: 33382166660863428}
   - component: {fileID: 23289674314357038}
+  - component: {fileID: 33382166660863429}
   m_Layer: 0
   m_Name: VaseFloor_1
   m_TagString: Untagged
@@ -34720,6 +34941,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329935885924906}
   m_Mesh: {fileID: 4300000, guid: 7a42a3aa9aded4b4bbe3dc01dc0805cd, type: 3}
+--- !u!136 &33382166660863429
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329935885924906}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.38
+  m_Height: 1.8
+  m_Direction: 1
+  m_Center: {x: 0.0000019073486, y: 0.7498105, z: 0}
 --- !u!33 &33569824727026100
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -34911,6 +35155,7 @@ GameObject:
   - component: {fileID: 229733332587674128}
   - component: {fileID: 236917262503083444}
   - component: {fileID: 247020458035196254}
+  - component: {fileID: 247020458035196255}
   m_Layer: 0
   m_Name: VaseFloor_1
   m_TagString: Untagged
@@ -34969,6 +35214,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &247020458035196255
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232942018954646106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.38
+  m_Height: 1.7
+  m_Direction: 1
+  m_Center: {x: -0.00000047683716, y: 0.7498105, z: 0.00000023841858}
 --- !u!1 &261740618514737493
 GameObject:
   m_ObjectHideFlags: 0
@@ -36001,6 +36269,7 @@ GameObject:
   - component: {fileID: 1532481326668475714}
   - component: {fileID: 1532481326665051490}
   - component: {fileID: 1532481326666182562}
+  - component: {fileID: 1532481326668475715}
   m_Layer: 0
   m_Name: Bed side_table
   m_TagString: Untagged
@@ -36023,6 +36292,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1284045798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1532481326668475715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532481326668181858}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 99.99997, y: 99.999985, z: 99.99999}
+  m_Center: {x: 0.000015258789, y: -0.000032424927, z: -0.000019073486}
 --- !u!23 &1578554208578743700
 MeshRenderer:
   m_ObjectHideFlags: 0
